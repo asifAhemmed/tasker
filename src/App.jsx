@@ -1,3 +1,6 @@
+import Footer from "./Footer"
+import Header from "./Header"
+import Hero from "./Hero"
 
 
 function App() {
@@ -5,7 +8,9 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold">Hello World!</h1>
+      <Header></Header>
+      <Hero></Hero>
+      <Footer></Footer>
     </>
   )
 }
